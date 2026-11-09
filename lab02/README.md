@@ -889,7 +889,7 @@ Alpha-Beta 的置换表需要区分“精确值 / 下界 / 上界”三种条目
 ## 13. 常见问题
 
 **Q1：`ModuleNotFoundError: No module named 'search_core'`**
-在项目根目录运行；或 `sys.path.append(r'...\P2')`。
+在 lab02 目录（即本 README 所在目录）运行；或 `sys.path.append(r'...\lab02')`。
 
 **Q2：`ModuleNotFoundError: No module named 'matplotlib'`**
 只有 `bench.py` 需要：`pip install matplotlib`。四道题不需要任何第三方库。
